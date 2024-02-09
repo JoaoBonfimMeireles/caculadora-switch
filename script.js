@@ -154,7 +154,34 @@
 
 // console.log(teste(""))
 
-for(let i = 0; i < 10; i++) {
-    console.log(i)
-}
+// for(let i = 0; i <= 10; i++) {
+//    if(i === 5) {
+//     continue
+//    }
+//    console.log(i)
+// }
 
+// for(let i = 10; i > 0; i--) {
+//     if(i ===5){
+//         break
+//     }
+//     console.log(i)
+// }
+
+// let i = 10
+
+// while (i > 0) {
+//     console.log(i)  
+
+//     i--
+// }
+
+let name = 'joao'
+let names = ['joao', 'andressa', 'carlos']
+
+for(let pegar of names) {
+    console.log('teste', pegar)
+    for(let nameArray of pegar){
+        console.log(nameArray)
+    }
+}
