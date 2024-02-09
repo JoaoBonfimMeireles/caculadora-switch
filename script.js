@@ -176,12 +176,28 @@
 //     i--
 // }
 
-let name = 'joao'
-let names = ['joao', 'andressa', 'carlos']
+// let name = 'joao'
+// let names = ['joao', 'andressa', 'carlos']
 
-for(let pegar of names) {
-    console.log('teste', pegar)
-    for(let nameArray of pegar){
-        console.log(nameArray)
-    }
+// for(let pegar of names) {
+//     console.log('teste', pegar)
+//     for(let nameArray of pegar){
+//         console.log(nameArray)
+//     }
+// }
+
+let person = {
+    name: 'joao',
+    age: 23,
+    weight: 89.5
+}
+
+let persons = [
+    'joao', 'felipe', 'andressa'
+]
+
+for(let colocar in person) {
+    console.log('1', colocar)
+    console.log('2', colocar.weight)
+    console.log('3', person[colocar])
 }
