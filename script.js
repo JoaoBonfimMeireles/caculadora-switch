@@ -105,37 +105,56 @@
 // }
 
 
-function caculadora(operador, number1, number2) {
-    let funcao = 0;
+// function caculadora(operador, number1, number2) {
+//     let funcao = 0;
 
-    switch (operador) {
-        case '+':
-            funcao = number1 + number2;
-            console.log('1')
-            break
-        case '-':
-            funcao = number1 - number2;
-            console.log('2')
-            break
-        case '*':
-            funcao = number1 * number2;
-            console.log('3')
-            break
-        case '/':
-            funcao = number1 / number2;
-            console.log('4')
-            break
-        default:
-            break
-    }
+//     switch (operador) {
+//         case '+':
+//             funcao = number1 + number2;
+//             console.log('1')
+//             break
+//         case '-':
+//             funcao = number1 - number2;
+//             console.log('2')
+//             break
+//         case '*':
+//             funcao = number1 * number2;
+//             console.log('3')
+//             break
+//         case '/':
+//             funcao = number1 / number2;
+//             console.log('4')
+//             break
+//         default:
+//             break
+//     }
 
 
-    return funcao
+//     return funcao
+// }
+
+// console.log(caculadora('/', 5, 2))
+
+
+
+// function teste(name = '') {
+//     if (name === '') {
+//         throw new Error('precisa de nome')
+//     }
+
+//     console.log('depois do erro no bloco de codigo')
+// }
+
+// try {
+//     teste('')
+
+// } catch(e){
+//     console.log(e) 
+// }
+
+// console.log(teste(""))
+
+for(let i = 0; i < 10; i++) {
+    console.log(i)
 }
-
-console.log(caculadora('/', 5, 2))
-
-
-
-
 
