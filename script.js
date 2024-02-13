@@ -207,13 +207,13 @@ let n1 = Number(prompt('nota n1:'))
 let n2 = Number(prompt('nota n2:'))
 let n3 = Number(prompt('nota n3:'))
 
-let media = (n1 + n2 + n3) / 3
+let media = ((n1 + n2 + n3) / 3).toFixed(2)
 
 function passou(){
     if(media >= 6){
-        return alert(student + ' passou infeliz')
+        return alert(student + ' passou infeliz e sua média foi ' + media)
     }else{
-        return alert(student + ' se fudeu')
+        return alert(student + ' se fudeu e sua media foi ' + media)
     }
 }
 
