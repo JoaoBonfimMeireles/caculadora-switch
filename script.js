@@ -186,18 +186,35 @@
 //     }
 // }
 
-let person = {
-    name: 'joao',
-    age: 23,
-    weight: 89.5
+// let person = {
+//     name: 'joao',
+//     age: 23,
+//     weight: 89.5
+// }
+
+// let persons = [
+//     'joao', 'felipe', 'andressa'
+// ]
+
+// for(let colocar in person) { 
+//     console.log('1', colocar)
+//     console.log('2', colocar.weight)
+//     console.log('3', person[colocar])
+// }
+
+let student = prompt('qual seu nome infeliz? ')
+let n1 = Number(prompt('nota n1:'))
+let n2 = Number(prompt('nota n2:'))
+let n3 = Number(prompt('nota n3:'))
+
+let media = (n1 + n2 + n3) / 3
+
+function passou(){
+    if(media >= 6){
+        return alert(student + ' passou infeliz')
+    }else{
+        return alert(student + ' se fudeu')
+    }
 }
 
-let persons = [
-    'joao', 'felipe', 'andressa'
-]
-
-for(let colocar in person) {
-    console.log('1', colocar)
-    console.log('2', colocar.weight)
-    console.log('3', person[colocar])
-}
+passou()
